@@ -1,0 +1,11 @@
+#main {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+}
+
+.kepek {
+    border: 10px solid black;
+    padding: 2px;
+    margin: 5px;
+}
