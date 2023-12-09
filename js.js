@@ -3,7 +3,7 @@ function $(id) {
 }
 
 function kep(){
-    var fs = require('fs');
+
     var files = fs.readdirSync('/image/');
 
     for (let index = 0; index < files.length; index++) {
